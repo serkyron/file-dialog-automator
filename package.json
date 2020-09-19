@@ -1,5 +1,5 @@
 {
-  "name": "file-dialog-automator",
+  "name": "file-dialog-automation",
   "version": "1.0.0",
   "description": "Intended to be used together with selenium to select a file in a file dialog",
   "main": "index.js",
