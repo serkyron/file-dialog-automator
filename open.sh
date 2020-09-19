@@ -12,7 +12,7 @@ xdotool windowactivate $WIN
 sleep 3
 
 # Send file path
-xdotool type --delay=500 "$file"
+xdotool type --clearmodifiers --delay=500 "$file"
 sleep 3
 
 # Press "Open" button
