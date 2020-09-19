@@ -1,0 +1,26 @@
+{
+  "name": "file-dialog-automator",
+  "version": "1.0.0",
+  "description": "Intended to be used together with selenium to select a file in a file dialog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/serkyron/file-dialog-automator.git"
+  },
+  "keywords": [
+    "automation",
+    "file",
+    "dialog",
+    "selenium",
+    "xdotool"
+  ],
+  "author": "serkyron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serkyron/file-dialog-automator/issues"
+  },
+  "homepage": "https://github.com/serkyron/file-dialog-automator#readme"
+}
