@@ -11,8 +11,7 @@ module.exports.openFile = function(fullPath) {
         let script = "./node_modules/file-dialog-automation/open.sh";
 
         if (os.platform() === "win32") {
-            // todo: implement for windows
-            script = null;
+            script = "./node_modules/file-dialog-automation/open.exe";
         }
 
         execFile(script, [fullPath], {windowsHide: true}, (error, stdout, stderr) => {
