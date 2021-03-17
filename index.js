@@ -8,10 +8,10 @@ module.exports.openFile = function(fullPath) {
             return;
         }
 
-        let script = "./node_modules/file-dialog-automation/open.sh";
+        let script = `${__dirname}/open.sh`;
 
         if (os.platform() === "win32") {
-            script = "./node_modules/file-dialog-automation/open.exe";
+            script = `${__dirname}\\open.exe`;
         }
 
         execFile(script, [fullPath], {windowsHide: true}, (error, stdout, stderr) => {
